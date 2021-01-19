@@ -51,6 +51,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'maia.urls'
 
+#Romain: Modification de DIRS en ajoutant BASE_DIR / avant templates
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
