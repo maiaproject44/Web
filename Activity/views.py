@@ -2,4 +2,5 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-	return render(request,'Activity.index.html')
+	mypost=['Act1', 'Act2', 'Act3']
+	return render(request,'Activity.index.html', {'posts':mypost)

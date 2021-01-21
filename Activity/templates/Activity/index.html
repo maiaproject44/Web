@@ -10,7 +10,10 @@
 </head>
 
 <body>
-	<h1>Service Activities<h1>	
+	<h1>Service Activities<h1>
+	{% for act in posts	%}
+	<li> {{act}}</li>
+	{% endfor %}
 </body>
 
 </html>
