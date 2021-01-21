@@ -11,9 +11,14 @@
 
 <body>
 	<h1>Service Activities<h1>
-	{% for act in posts	%}
-	<li> {{act}}</li>
-	{% endfor %}
+	<h2>Métadonnées</h2>
+		<h3>Nombre d'activités : {{posts|length}}</h3>
+	<h2>Liste</h2>
+	<ul>
+		{% for act in posts	%}
+		<li> {{act}}</li>
+		{% endfor %}
+	</ul>
 </body>
 
 </html>
