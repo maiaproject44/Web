@@ -6,5 +6,5 @@ from . import views
 app_name='activities'
 
 urlpatterns = [
-    re_path(r'^ies/$', views.index, name='index'),
+    re_path(r'^$', views.index, name='index'),
 ]
