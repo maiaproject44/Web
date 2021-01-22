@@ -21,6 +21,6 @@ from . import views
 
 urlpatterns = [
     re_path(r'^$', views.home, name = 'home'),
-    re_path(r'^activities/', include('Activity.urls')),
+    re_path(r'^Activity/', include('Activity.urls')),
     re_path(r'^admin/', admin.site.urls),
 ]
