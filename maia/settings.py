@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Activity',
+    'Activity.apps.ActivityConfig',
 ]
 
 MIDDLEWARE = [
@@ -52,7 +52,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'maia.urls'
 
-#Romain: Modification de DIRS en ajoutant BASE_DIR / avant template
 
 TEMPLATES = [
     {
